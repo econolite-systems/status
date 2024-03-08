@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<!-- SPDX-License-Identifier: MIT -->
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <AssemblyName>Econolite.Ode.Status.WrongWayDriver.Messaging</AssemblyName>
+        <RootNamespace>Econolite.Ode.Status.WrongWayDriver.Messaging</RootNamespace>
+    <Copyright>2023-&lt;&lt;CURRENT_YEAR&gt;&gt; Econolite Systems, Inc.</Copyright>
+</PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Status.Common.Messaging\Status.Common.Messaging.csproj" />
+      <ProjectReference Include="..\Status.WrongWayDriver\Status.WrongWayDriver.csproj" />
+    </ItemGroup>
+
+</Project>

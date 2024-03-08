@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="$(SolutionDir)\common\Messaging\Messaging.csproj" />
+		<ProjectReference Include="..\Status.Common\Status.Common.csproj" />
+		<ProjectReference Include="..\Status.CorridorSpeedEvent\Status.CorridorSpeedEvent.csproj" />
+	</ItemGroup>
+
+</Project>

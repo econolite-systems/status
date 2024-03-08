@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<!-- SPDX-License-Identifier: MIT -->
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+      <AssemblyName>Econolite.Ode.Status.Signal.Cache</AssemblyName>
+      <RootNamespace>Econolite.Ode.Status.Signal.Cache</RootNamespace>
+      <PackageId>Econolite.Ode.Status.Signal.Cache</PackageId>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>1.0.0.0</Version>
+      <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      <FileVersion>1.0.0.0</FileVersion>
+  <Copyright>2023-&lt;&lt;CURRENT_YEAR&gt;&gt; Econolite Systems, Inc.</Copyright>
+</PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\common\Cache\Cache.csproj" />
+    <ProjectReference Include="..\Status.Signal\Status.Signal.csproj" />
+  </ItemGroup>
+
+</Project>

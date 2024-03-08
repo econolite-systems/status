@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<!-- SPDX-License-Identifier: MIT -->
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>Econolite.Ode.Status.Common</AssemblyName>
+        <RootNamespace>Econolite.Ode.Status.Common</RootNamespace>
+        <PackageId>Econolite.Ode.Status.Common</PackageId>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>1.0.0.0</Version>
+        <Copyright>Copyright © 2020-&lt;&lt;CURRENT_YEAR&gt;&gt; Econolite Control Products, Inc.  All rights reserved.</Copyright>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
+    <Copyright>2023-&lt;&lt;CURRENT_YEAR&gt;&gt; Econolite Systems, Inc.</Copyright>
+</PropertyGroup>
+
+</Project>

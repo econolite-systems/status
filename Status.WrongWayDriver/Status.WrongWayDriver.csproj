@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<!-- SPDX-License-Identifier: MIT -->
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>Econolite.Ode.Status.WrongWayDriver</AssemblyName>
+        <RootNamespace>Econolite.Ode.Status.WrongWayDriver</RootNamespace>
+    <Copyright>2023-&lt;&lt;CURRENT_YEAR&gt;&gt; Econolite Systems, Inc.</Copyright>
+</PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Status.Common\Status.Common.csproj" />
+    </ItemGroup>
+
+</Project>
